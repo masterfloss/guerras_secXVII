@@ -1,29 +1,898 @@
-batalha,ano,portugueses,holandeses,ingleses,racio,espanhois,vitoria
-Bantam,1601,6,3,0,2,0,0
-Malacca Strait,1606,14,11,0,1.273,0,0
-Ilha das Naus,1606,6,9,0,0.667,0,-1
-Pulo Butum,1606,7,9,0,0.778,0,1
-Surrat,1615,6,0,4,1.5,0,0
-Ilha das Naus,1615,3,5,0,0.6,0,-1
-Jask,1620,4,0,4,1,0,0
-Hormuz,1622,6,0,5,1.2,0,-1
-Mogincoal Shoals,1622,4,4,2,0.667,0,-1
-Hormuz,1625,8,4,4,1,0,0
-Goa,1636,6,4,0,1.5,0,0
-Goa,1637,6,7,0,0.857,0,0
-Goa,1638,6,8,0,0.75,0,1
-Colombo,1654,5,3,0,1.667,0,1
-Goa,1658,9,9,0,1,0,0
-Invincible Armada,1588,69,0,31,2.226,1,-1
-Bahia,1624,4,13,0,0.308,1,-1
-Bahia,1625,35,20,0,1.75,1,1
-Bahia,1627,4,10,0,0.4,1,-1
-Recife,1630,9,60,0,0.15,1,-1
-Abrolhos,1631,17,16,0,1.063,1,0
-Bahia,1636,2,8,0,0.25,1,0
-Dunas,1639,51,11,0,4.636,1,0
-Dunas,1639,38,110,0,0.345,1,-1
-Paraiba,1640,16,30,0,0.533,1,0
-Tamandare,1645,6,7,0,0.857,1,-1
-Recife,1653,14,5,0,2.8,1,1
-Lisbon,1657,7,10,0,0.7,1,0
+
+
+
+<!DOCTYPE html>
+<html lang="en" class=" is-copy-enabled">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>guerras_secXVII/dados.csv at master · masterfloss/guerras_secXVII · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="masterfloss/guerras_secXVII" name="twitter:title" /><meta content="Contribute to guerras_secXVII development by creating an account on GitHub." name="twitter:description" /><meta content="https://avatars3.githubusercontent.com/u/5748267?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars3.githubusercontent.com/u/5748267?v=3&amp;s=400" property="og:image" /><meta content="masterfloss/guerras_secXVII" property="og:title" /><meta content="https://github.com/masterfloss/guerras_secXVII" property="og:url" /><meta content="Contribute to guerras_secXVII development by creating an account on GitHub." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="5D6C2BDB:5098:1A410AF2:56451BE9" name="octolytics-dimension-request_id" />
+
+<meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+
+
+
+
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta content="9a3e86239cb2ac7d2b1a77c59abd22bc0a7f23a5" name="form-nonce" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-bed25883de95703653638fd0b3116db40a1427cba24c9e6a338d0a1f811225f1.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-82f8f505e9548af8160aa908a24e2f745299264a7f503989d6fa2a392aaa967a.css" media="all" rel="stylesheet" />
+    
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="54402829b532cfdab72c4af0e1570a1a">
+
+      
+  <meta name="description" content="Contribute to guerras_secXVII development by creating an account on GitHub.">
+  <meta name="go-import" content="github.com/masterfloss/guerras_secXVII git https://github.com/masterfloss/guerras_secXVII.git">
+
+  <meta content="5748267" name="octolytics-dimension-user_id" /><meta content="masterfloss" name="octolytics-dimension-user_login" /><meta content="45395909" name="octolytics-dimension-repository_id" /><meta content="masterfloss/guerras_secXVII" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="45395909" name="octolytics-dimension-repository_network_root_id" /><meta content="masterfloss/guerras_secXVII" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/masterfloss/guerras_secXVII/commits/master.atom" rel="alternate" title="Recent Commits to guerras_secXVII:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out   env-production linux vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fmasterfloss%2Fguerras_secXVII%2Fblob%2Fmaster%2Fdados.csv" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/masterfloss/guerras_secXVII/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/masterfloss/guerras_secXVII/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/pricing" data-ga-click="(Logged out) Header, go to pricing, text:pricing">Pricing</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+
+      <div class="container">
+
+        <div class="clearfix">
+          
+
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fmasterfloss%2Fguerras_secXVII"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/masterfloss/guerras_secXVII/watchers">
+    11
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fmasterfloss%2Fguerras_secXVII"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/masterfloss/guerras_secXVII/stargazers">
+      0
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fmasterfloss%2Fguerras_secXVII"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+
+    <a href="/masterfloss/guerras_secXVII/network" class="social-count">
+      1
+    </a>
+  </li>
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="/masterfloss" class="url fn" itemprop="url" rel="author"><span itemprop="title">masterfloss</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/masterfloss/guerras_secXVII" data-pjax="#js-repo-pjax-container">guerras_secXVII</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline ">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/masterfloss/guerras_secXVII/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/masterfloss/guerras_secXVII" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /masterfloss/guerras_secXVII">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/masterfloss/guerras_secXVII/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /masterfloss/guerras_secXVII/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/masterfloss/guerras_secXVII/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /masterfloss/guerras_secXVII/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/masterfloss/guerras_secXVII/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /masterfloss/guerras_secXVII/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/masterfloss/guerras_secXVII/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /masterfloss/guerras_secXVII/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3 class="text-small text-muted"><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini text-small text-muted input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/masterfloss/guerras_secXVII.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3 class="text-small text-muted"><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini text-small text-muted input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/masterfloss/guerras_secXVII" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options text-small text-muted">You can clone with
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="9a3e86239cb2ac7d2b1a77c59abd22bc0a7f23a5" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="njV65LyrZj/9t/MS0z9lpalfFpU67aW9GuBqPzeA6SaeW7PKcK5V7JzMvFrT3eikI4qbIgl8jtdFYn3qwC+Zmg==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="9a3e86239cb2ac7d2b1a77c59abd22bc0a7f23a5" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="b+6gDO2QlJiFbe0obL8/c5sH3+X9HsxVJJUzgiBEpZQMp/cZ4cEVRkiCr1rv/nT+GZBQGpfSUbGT1gV0+s+lrw==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+              <a href="/masterfloss/guerras_secXVII/archive/master.zip"
+                 class="btn btn-sm sidebar-button"
+                 aria-label="Download the contents of masterfloss/guerras_secXVII as a zip file"
+                 title="Download the contents of masterfloss/guerras_secXVII as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+
+<a href="/masterfloss/guerras_secXVII/blob/23201c871568b4f96bd189473ba1d109f8062098/dados.csv" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:a3fd819b0e0a591edde5c8cab4ca4868 -->
+
+  <div class="file-navigation js-zeroclipboard-container">
+    
+<div class="select-menu js-menu-container js-select-menu left">
+  <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    title="master"
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/masterfloss/guerras_secXVII/blob/Joao_Santos_71593/dados.csv"
+               data-name="Joao_Santos_71593"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="Joao_Santos_71593">
+                Joao_Santos_71593
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/masterfloss/guerras_secXVII/blob/Sergio_Cardoso/dados.csv"
+               data-name="Sergio_Cardoso"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="Sergio_Cardoso">
+                Sergio_Cardoso
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/masterfloss/guerras_secXVII/blob/bfreitas_69409/dados.csv"
+               data-name="bfreitas_69409"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="bfreitas_69409">
+                bfreitas_69409
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/masterfloss/guerras_secXVII/blob/master/dados.csv"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="btn-group right">
+      <a href="/masterfloss/guerras_secXVII/find/master"
+            class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-nw"
+            data-pjax
+            data-hotkey="t"
+            aria-label="Quickly jump between files">
+        <span class="octicon octicon-list-unordered"></span>
+      </a>
+      <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </div>
+
+    <div class="breadcrumb js-zeroclipboard-target">
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/masterfloss/guerras_secXVII" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">guerras_secXVII</span></a></span></span><span class="separator">/</span><strong class="final-path">dados.csv</strong>
+    </div>
+  </div>
+
+
+  <div class="commit-tease">
+      <span class="right">
+        <a class="commit-tease-sha" href="/masterfloss/guerras_secXVII/commit/42ccbc4a1d96430e35d9a44acd1610bc7259402e" data-pjax>
+          42ccbc4
+        </a>
+        <time datetime="2015-11-02T13:43:44Z" is="relative-time">Nov 2, 2015</time>
+      </span>
+      <div>
+        <img alt="@masterfloss" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/5748267?v=3&amp;s=40" width="20" />
+        <a href="/masterfloss" class="user-mention" rel="author">masterfloss</a>
+          <a href="/masterfloss/guerras_secXVII/commit/42ccbc4a1d96430e35d9a44acd1610bc7259402e" class="message" data-pjax="true" title="dados">dados</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      <a class="muted-link contributors-toggle" href="#blob_contributors_box" rel="facebox">
+        <strong>1</strong>
+         contributor
+      </a>
+      
+    </div>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@masterfloss" height="24" src="https://avatars2.githubusercontent.com/u/5748267?v=3&amp;s=48" width="24" />
+            <a href="/masterfloss">masterfloss</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file">
+  <div class="file-header">
+  <div class="file-actions">
+
+    <div class="btn-group">
+      <a href="/masterfloss/guerras_secXVII/raw/master/dados.csv" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/masterfloss/guerras_secXVII/blame/master/dados.csv" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/masterfloss/guerras_secXVII/commits/master/dados.csv" class="btn btn-sm " rel="nofollow">History</a>
+    </div>
+
+
+        <button type="button" class="octicon-btn disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <span class="octicon octicon-pencil"></span>
+        </button>
+        <button type="button" class="octicon-btn octicon-btn-danger disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <span class="octicon octicon-trashcan"></span>
+        </button>
+  </div>
+
+  <div class="file-info">
+      30 lines (29 sloc)
+      <span class="file-info-divider"></span>
+    882 Bytes
+  </div>
+</div>
+
+  
+
+  <div class="blob-wrapper data type-text">
+      <div class="blob-interaction-bar">
+  <span class="octicon octicon-search"></span>
+  <input type="text" name="filter" class="js-csv-filter-field blob-filter" autocapitalize="off"
+         placeholder="Search this file…" aria-label="Search this file…">
+</div>
+
+<div class="markdown-body">
+  <table class="js-csv-data csv-data js-file-line-container">
+    <thead>
+      <tr id="LC1" class="js-file-line">
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <th>batalha</th>
+        <th>ano</th>
+        <th>portugueses</th>
+        <th>holandeses</th>
+        <th>ingleses</th>
+        <th>racio</th>
+        <th>espanhois</th>
+        <th>vitoria</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="LC2" class="js-file-line">
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td>Bantam</td>
+        <td>1601</td>
+        <td>6</td>
+        <td>3</td>
+        <td>0</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC3" class="js-file-line">
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td>Malacca Strait</td>
+        <td>1606</td>
+        <td>14</td>
+        <td>11</td>
+        <td>0</td>
+        <td>1.273</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC4" class="js-file-line">
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td>Ilha das Naus</td>
+        <td>1606</td>
+        <td>6</td>
+        <td>9</td>
+        <td>0</td>
+        <td>0.667</td>
+        <td>0</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC5" class="js-file-line">
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td>Pulo Butum</td>
+        <td>1606</td>
+        <td>7</td>
+        <td>9</td>
+        <td>0</td>
+        <td>0.778</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr id="LC6" class="js-file-line">
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td>Surrat</td>
+        <td>1615</td>
+        <td>6</td>
+        <td>0</td>
+        <td>4</td>
+        <td>1.5</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC7" class="js-file-line">
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td>Ilha das Naus</td>
+        <td>1615</td>
+        <td>3</td>
+        <td>5</td>
+        <td>0</td>
+        <td>0.6</td>
+        <td>0</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC8" class="js-file-line">
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td>Jask</td>
+        <td>1620</td>
+        <td>4</td>
+        <td>0</td>
+        <td>4</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC9" class="js-file-line">
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td>Hormuz</td>
+        <td>1622</td>
+        <td>6</td>
+        <td>0</td>
+        <td>5</td>
+        <td>1.2</td>
+        <td>0</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC10" class="js-file-line">
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td>Mogincoal Shoals</td>
+        <td>1622</td>
+        <td>4</td>
+        <td>4</td>
+        <td>2</td>
+        <td>0.667</td>
+        <td>0</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC11" class="js-file-line">
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td>Hormuz</td>
+        <td>1625</td>
+        <td>8</td>
+        <td>4</td>
+        <td>4</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC12" class="js-file-line">
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td>Goa</td>
+        <td>1636</td>
+        <td>6</td>
+        <td>4</td>
+        <td>0</td>
+        <td>1.5</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC13" class="js-file-line">
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td>Goa</td>
+        <td>1637</td>
+        <td>6</td>
+        <td>7</td>
+        <td>0</td>
+        <td>0.857</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC14" class="js-file-line">
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td>Goa</td>
+        <td>1638</td>
+        <td>6</td>
+        <td>8</td>
+        <td>0</td>
+        <td>0.75</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr id="LC15" class="js-file-line">
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td>Colombo</td>
+        <td>1654</td>
+        <td>5</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.667</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr id="LC16" class="js-file-line">
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td>Goa</td>
+        <td>1658</td>
+        <td>9</td>
+        <td>9</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC17" class="js-file-line">
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td>Invincible Armada</td>
+        <td>1588</td>
+        <td>69</td>
+        <td>0</td>
+        <td>31</td>
+        <td>2.226</td>
+        <td>1</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC18" class="js-file-line">
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td>Bahia</td>
+        <td>1624</td>
+        <td>4</td>
+        <td>13</td>
+        <td>0</td>
+        <td>0.308</td>
+        <td>1</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC19" class="js-file-line">
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td>Bahia</td>
+        <td>1625</td>
+        <td>35</td>
+        <td>20</td>
+        <td>0</td>
+        <td>1.75</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr id="LC20" class="js-file-line">
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td>Bahia</td>
+        <td>1627</td>
+        <td>4</td>
+        <td>10</td>
+        <td>0</td>
+        <td>0.4</td>
+        <td>1</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC21" class="js-file-line">
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td>Recife</td>
+        <td>1630</td>
+        <td>9</td>
+        <td>60</td>
+        <td>0</td>
+        <td>0.15</td>
+        <td>1</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC22" class="js-file-line">
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td>Abrolhos</td>
+        <td>1631</td>
+        <td>17</td>
+        <td>16</td>
+        <td>0</td>
+        <td>1.063</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC23" class="js-file-line">
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td>Bahia</td>
+        <td>1636</td>
+        <td>2</td>
+        <td>8</td>
+        <td>0</td>
+        <td>0.25</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC24" class="js-file-line">
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td>Dunas</td>
+        <td>1639</td>
+        <td>51</td>
+        <td>11</td>
+        <td>0</td>
+        <td>4.636</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC25" class="js-file-line">
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td>Dunas</td>
+        <td>1639</td>
+        <td>38</td>
+        <td>110</td>
+        <td>0</td>
+        <td>0.345</td>
+        <td>1</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC26" class="js-file-line">
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td>Paraiba</td>
+        <td>1640</td>
+        <td>16</td>
+        <td>30</td>
+        <td>0</td>
+        <td>0.533</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr id="LC27" class="js-file-line">
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td>Tamandare</td>
+        <td>1645</td>
+        <td>6</td>
+        <td>7</td>
+        <td>0</td>
+        <td>0.857</td>
+        <td>1</td>
+        <td>-1</td>
+      </tr>
+      <tr id="LC28" class="js-file-line">
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td>Recife</td>
+        <td>1653</td>
+        <td>14</td>
+        <td>5</td>
+        <td>0</td>
+        <td>2.8</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr id="LC29" class="js-file-line">
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td>Lisbon</td>
+        <td>1657</td>
+        <td>7</td>
+        <td>10</td>
+        <td>0</td>
+        <td>0.7</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  </div>
+
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+    </div>
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.05104s from github-fe137-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-2e7fc3d264a208e1383de85b815379beccff56c1f977714515d4cac7820eef3e.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-ad3afa2166b01280a8ade8889a9a7dea8ec9428d62c892b216456b35e9574dcc.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+
